@@ -1,0 +1,115 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(155, 44, 57);
+  width: 450px;
+  height: 700px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.logo-container {
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+
+.special-container {
+  display: flex;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 15px;
+  background: white;
+  font-size: 30px;
+  color: white;
+}
+
+.special {
+  background: rgb(49, 98, 171)
+}
+
+.number {
+  background: rgb(28, 61, 116);
+}
+
+.operator {
+  background: rgb(96, 180, 224);
+}
+
+.numbers-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.number:nth-child(10) {
+  width: 170px;
+  border-radius: 30px;
+}
+
+.left-child {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.special-container {
+  display: flex;
+  justify-content: center;
+}
+
+.numbers-container {
+  display: flex;
+  justify-content: center;
+}
+.right-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.operators-container {
+  display: flex;
+  justify-content: baseline;
+  flex-direction: column;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.display {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 20px;
+  width: 350px;
+  height: 70px;
+  border-radius: 30px;
+  margin: 0 auto;
+  background: rgb(44, 40, 41);
+  font-size: 30px;
+  color: white;
+}
